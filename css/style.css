@@ -1,0 +1,66 @@
+:root {
+--blizzard-blue: #E8EEF2;
+--light-blue: #006C67;
+--pewter-blue: #072ba3;
+--charcoal: #01204C;
+--outer-space-crayola: #303c40;
+}
+
+.c-text-white {color: var(--blizzard-blue);}
+.c-text-accent {color: var(--red);}
+.c-text-secondary {color: var(--pewter-blue);}
+.c-text-primary {color: var(--cadet);}
+.c-text-black {color: var(--outer-space-crayola);}
+
+.c-bg-white {background-color: var(--blizzard-blue);}
+.c-bg-accent {background-color: var(--space-cadet);}
+.c-bg-secondary {background-color: var(--pewter-blue);}
+.c-bg-primary {background-color: var(--#01204C);}
+.c-bg-black {background-color: var(--outer-space-crayola);}
+
+.c-active {color: var(--outer-space-crayola);}
+
+.align-right {float: right;}
+
+
+
+
+/* Media query for small screens (adjust as needed) */
+@media (max-width: 768px) {
+.card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 300px;
+        }
+    }          
+.card img {
+            width: 100%; /* Make the image as wide as the card */
+            height: 100%; /* Make the image as tall as the card */
+        }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    }
+
+
+
+section {
+    padding: 20px;
+        }
+
+
+
+ /* CSS to change font color for the section */
+ .my-section {
+    color: #006C67; /* Change this to the desired font color */
+}
+
+footer {
+    background-color: #001f54; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 5px; /* Add padding for spacing within the footer */
+    text-align: center; /* Center-align the content in the footer */
+}
+
