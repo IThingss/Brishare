@@ -1,4 +1,27 @@
 .align-right {float: right;}
+body {
+    margin: 0;
+    padding: 0;
+    /* Set image as background */
+    background-image: url('/html-bri/img/bg1.jpg');
+    /* Adjust background size to cover the whole screen */
+    background-size:cover;
+    /* Center the background image */
+    background-position: center;
+    /* Fixed background position so it doesn't move on scroll */
+    background-attachment:scroll;
+    /* Add some styles to fill the whole screen */
+    height:0%;
+    overflow:auto;
+    
+}
+
+/* Optional: Add styles to content */
+.content {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
 
 @media (max-width: 768px) {
 .card {
@@ -19,10 +42,11 @@
             width: 100%; 
             height: 100%;
         }
+  
 
 footer {
-    background-color: #001f54; 
-    color: #fff;
+    background-color: #040c30; 
+    color: #fff6f6;
     padding: 10px;
     text-align: center;
     position: absolute;
@@ -33,12 +57,5 @@ footer {
 .bottom-text {
     position: absolute;
     bottom: 0;
-    width: 0;
+    width: 0;s
 }
-
-
-.navbar img {
-    width: 100px;
-    height: auto;
-  }
-
